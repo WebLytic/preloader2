@@ -9,8 +9,9 @@
 .logo-preloader {
     width: 80px;
     position: absolute;
-    top: calc(50vh - 20px);
-    left: calc(50vw - 30px);
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .logo-preloader img {
@@ -24,8 +25,9 @@
     width: 320px;
     height: 320px;
     position: absolute;
-    top: calc(50vh - 160px);
-    left: calc(50vw - 160px);
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
 }
 .loader:before, .loader:after{
     content: '';
